@@ -1,0 +1,8 @@
+//code adopted from : https://stackoverflow.com/questions/54071086/how-to-configure-eslint-prettier-formatting-rules-on-codesandbox-io
+{
+  "trailingComma": "es5",
+  "tabWidth": 2,
+  "semi": false,
+  "singleQuote": true,
+  "printWidth": 25
+}

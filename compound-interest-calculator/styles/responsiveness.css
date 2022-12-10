@@ -1,0 +1,138 @@
+@media (min-width: 319px) {
+  #heading {
+    font-size: 28px;
+    margin-top: 30px;
+  }
+
+  img {
+    width: 40px;
+    height: 40px;
+  }
+
+  .container {
+    width: 350px;
+    height: 350px;
+    margin-left: 20%;
+  }
+
+  .container input {
+    width: 240px;
+    height: 40px;
+    margin-top: 30px;
+    margin-left: 40px;
+  }
+
+  .interestText {
+    margin-top: -5px;
+    margin-left: 80px;
+  }
+
+  #links {
+    font-size: 4px;
+    margin-top: -25px;
+    margin-left: 10px;
+  }
+}
+@media (min-width: 500px) {
+  #links {
+    margin-left: 28%;
+  }
+
+  #progress {
+    margin-left: 90px;
+  }
+
+  .container {
+    height: 400px;
+    margin-left: 35%;
+  }
+}
+@media (min-width: 833px) {
+  #links {
+    margin-left: 28%;
+  }
+
+  #progress {
+    margin-left: 90px;
+  }
+  .container {
+    height: 400px;
+    margin-left: 35%;
+  }
+}
+
+@media (min-width: 1023px) {
+  #heading {
+    font-size: 58px;
+    margin-top: 60px;
+  }
+
+  img {
+    width: 90px;
+    height: 90px;
+  }
+
+  .container {
+    width: 450px;
+    height: 450px;
+    margin-left: 35%;
+  }
+
+  .container input {
+    margin-top: 40px;
+    margin-left: 100px;
+  }
+
+  .interestText {
+    font-size: 40px;
+    margin-top: -5px;
+    margin-left: 100px;
+  }
+
+  #links {
+    margin-left: 32%;
+  }
+
+  #progress {
+    margin-left: 150px;
+  }
+}
+
+@media (min-width: 1200px) {
+  #links {
+    margin-left: 32%;
+  }
+
+  #progress {
+    margin-left: 150px;
+  }
+}
+@media (min-width: 2000px) {
+  .container {
+    width: 750px;
+    height: 750px;
+  }
+}
+@media (min-width: 2559px) {
+  .container {
+    width: 750px;
+    height: 750px;
+  }
+
+  .container input {
+    width: 600px;
+    height: 100px;
+    font-size: 35px;
+    margin-left: 7%;
+  }
+
+  .interestText {
+    font-size: 60px;
+    margin-top: -5px;
+  }
+
+  #links {
+    font-size: 40px;
+    margin-left: 40%;
+  }
+}

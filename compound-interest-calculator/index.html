@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <link rel="stylesheet" href="./styles/styles.css" />
+    <link rel="stylesheet" href="./styles/responsiveness.css" />
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css?family=Tangerine"
+    />
+    <title>
+      Compund Interest Calculator
+    </title>
+  </head>
+  <body>
+    <header>
+      <p id="heading" class="font-effect-neon">
+        Compound Interest Calculator
+        <img src="images/interestFormula.jpg" />
+      </p>
+    </header>
+
+    <section id="container" class="container">
+      <input
+        type="text"
+        placeholder="principal amount"
+        id="principalAmount"
+        class="principalAmount"
+      />
+      <input
+        type="text"
+        placeholder="interest rate"
+        id="interestRate"
+        class="interestRate"
+      />
+      <input
+        type="text"
+        placeholder="number of times compounded per year"
+        id="annualCount"
+        class="annualCount"
+      />
+      <input
+        type="text"
+        placeholder="number of years"
+        id="numberOfYears"
+        class="numberOfYears"
+      />
+      <progress id="progress" max="100" value="0"> 70% </progress>
+      <p class="interestText">
+        The compound interest is:
+        <span id="compoundedInterest"></span>
+      </p>
+    </section>
+    <footer>
+      <section id="links">
+        <li>
+          <a
+            href="https://codesandbox.io/s/stupefied-field-xybzcf?file=/index.html"
+          >
+            Code Sandbox Source Code
+          </a>
+        </li>
+        <li>
+          <a href="https://www.instagram.com">
+            Instagram
+          </a>
+        </li>
+        <li>
+          <a href="https://www.linkedin.com/in/betram-lalusha-3a06291b0/">
+            LinkedIn
+          </a>
+        </li>
+      </section>
+    </footer>
+    <script src="./javascripts/compoundInterestCalculator.js" />
+  </body>
+</html>

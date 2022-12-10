@@ -1,0 +1,86 @@
+body {
+  margin: 0;
+  height: 100vh;
+  background-image: linear-gradient(180deg, black, gray);
+}
+#heading {
+  color: lime;
+  font-size: 48px;
+  margin-top: 120px;
+  text-shadow: 4px 4px 4px #aaa;
+  font-family: "Tangerine", serif;
+  transition: color 2ms, text-shadow 2s, transform 2s;
+}
+
+#heading:hover {
+  color: lightcoral;
+  transform: rotate(180deg);
+  text-shadow: 4px 4px 4px limegreen;
+}
+.container {
+  width: 400px;
+  height: 500px;
+  margin-left: 37%;
+  border-radius: 20px;
+  display: inline-block;
+  background-color: moccasin;
+}
+
+img {
+  width: 80px;
+  height: 80px;
+  border-radius: 200px;
+}
+.container input {
+  width: 240px;
+  height: 40px;
+  display: grid;
+  margin-top: 40px;
+  margin-left: 80px;
+  padding-left: 20px;
+  border-radius: 10px;
+  border: 2px solid black;
+  grid-template-rows: 50px auto 1.5 rem;
+  grid-template-columns: 120px auto;
+}
+
+.interestText {
+  font-size: 30px;
+  margin-top: -20px;
+  margin-left: 100px;
+  font-family: "Tangerine", serif;
+}
+
+#progress {
+  margin-top: 20px;
+  margin-left: 150px;
+}
+
+footer section {
+  display: flex;
+  flex-direction: row;
+}
+
+footer li {
+  margin-top: 30px;
+  padding-left: 40px;
+}
+
+footer a,
+h2 {
+  font-size: 18px;
+  color: limegreen;
+  text-decoration: none;
+  text-shadow: 4px 4px 4px limegreen;
+}
+
+#links {
+  margin-left: 31%;
+  padding-top: 30px;
+}
+
+header,
+footer {
+  text-align: center;
+  grid-column: span 2;
+}
